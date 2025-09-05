@@ -114,3 +114,5 @@ func (c *ChatSession) ClearHistory() {
 func (c *ChatSession) Close() error {
 	return c.client.Close()
 }
+
+run
